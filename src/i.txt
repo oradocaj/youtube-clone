@@ -1,0 +1,25 @@
+Complete node instalation setup:
+https://www.geeksforgeeks.org/how-to-update-node-js-and-npm-to-next-version/?ref=lbp
+
+1. Update npm
+npm -v
+npm update -g
+
+2. Check node version
+node -v
+
+3. Install nvm
+Download nvm-setup.zip from: https://github.com/coreybutler/nvm-windows/releases
+nvm -v (from admin cmd)
+
+4. Check/Install/Update node
+nvm current
+nvm list available
+nvm install latest (latest current) or
+nvm install lts (latest lts, recommended) or
+nvm install [specific version]
+nvm use [specific version]
+
+5. Updating webpack (optional)
+npx webpack --version
+npm install webpack@latest
