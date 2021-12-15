@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
@@ -6,23 +6,36 @@ import VideoCallIcon from "@mui/icons-material/VideoCall";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Avatar } from '@mui/material';
+import { Link } from 'react-router-dom';
+//es7 snippets extension
 
 function Header() {
+    const [inputSearch, setInputSearch] = useState('');
+
     return (
         <div className="header">
             
             <div className='header__left'>
                 <MenuIcon />
-                <img
-                    className='header__logo' 
-                    src='https://www.transparentpng.com/thumb/youtube-logo/hd-youtube-logo-image-5.png' 
-                    alt="" 
-                />
+                <Link to={'youtube-clone/'}>
+                    <img
+                        className='header__logo' 
+                        src='https://www.transparentpng.com/thumb/youtube-logo/hd-youtube-logo-image-5.png' 
+                        alt="" 
+                    />                
+                </Link>
             </div>
 
             <div className='header__input'>
-                <input placeholder='Search' type="text" />
-                <SearchIcon className='header__inputButton'/>
+                <input 
+                onChange={e => setInputSearch(e.target.value)}
+                value={inputSearch} 
+                placeholder='Search' 
+                type="text" 
+                />
+                <Link to={`youtube-clone/search/${inputSearch}`}>
+                    <SearchIcon className='header__inputButton'/>
+                </Link>
             </div>
 
             <div className='header__icons'>
