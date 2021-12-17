@@ -23,7 +23,43 @@ function SearchPage() {
             />
             <hr/>
             <VideoRow
-                views='1.3M Views'
+                views='1.3M'
+                subs='345K'
+                description='Do you want a FREE one hour training...'
+                timestamp='50 seconds ago'
+                channel='Tanjica Bananica'
+                title='Learn make-up tricks with me'
+                image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
+            />
+            <VideoRow
+                views='1.3M'
+                subs='345K'
+                description='Do you want a FREE one hour training...'
+                timestamp='50 seconds ago'
+                channel='Tanjica Bananica'
+                title='Learn make-up tricks with me'
+                image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
+            />
+            <VideoRow
+                views='1.3M'
+                subs='345K'
+                description='Do you want a FREE one hour training...'
+                timestamp='50 seconds ago'
+                channel='Tanjica Bananica'
+                title='Learn make-up tricks with me'
+                image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
+            />
+            <VideoRow
+                views='1.3M'
+                subs='345K'
+                description='Do you want a FREE one hour training...'
+                timestamp='50 seconds ago'
+                channel='Tanjica Bananica'
+                title='Learn make-up tricks with me'
+                image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
+            />
+            <VideoRow
+                views='1.3M'
                 subs='345K'
                 description='Do you want a FREE one hour training...'
                 timestamp='50 seconds ago'
