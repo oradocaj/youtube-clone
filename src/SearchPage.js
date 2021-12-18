@@ -23,13 +23,13 @@ function SearchPage() {
             />
             <hr/>
             <VideoRow
-                views='1.3M'
+                views='2.4M'
                 subs='345K'
-                description='Do you want a FREE one hour training...'
-                timestamp='50 seconds ago'
+                description='Do you want to level up your game...'
+                timestamp='50 minutes ago'
                 channel='Tanjica Bananica'
-                title='Learn make-up tricks with me'
-                image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
+                title="New make-up tutorial for New Year's eve"
+                image='https://cdn.pixabay.com/photo/2018/01/21/14/16/woman-3096664_960_720.jpg'                
             />
             <VideoRow
                 views='1.3M'
@@ -41,13 +41,22 @@ function SearchPage() {
                 image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
             />
             <VideoRow
-                views='1.3M'
+                views='1M'
                 subs='345K'
-                description='Do you want a FREE one hour training...'
-                timestamp='50 seconds ago'
+                description='Do you want to win one hour personal teaching session'
+                timestamp='5 hours ago'
                 channel='Tanjica Bananica'
-                title='Learn make-up tricks with me'
-                image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
+                title='Spice up your lipstick game'
+                image='https://cdn.pixabay.com/photo/2015/05/31/13/29/lipstick-791761_960_720.jpg'                
+            />
+            <VideoRow
+                views='2.4M'
+                subs='345K'
+                description='Do you want to level up your game...'
+                timestamp='50 minutes ago'
+                channel='Tanjica Bananica'
+                title="New make-up tutorial for New Year's eve"
+                image='https://cdn.pixabay.com/photo/2018/01/21/14/16/woman-3096664_960_720.jpg'                
             />
             <VideoRow
                 views='1.3M'
@@ -59,13 +68,13 @@ function SearchPage() {
                 image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
             />
             <VideoRow
-                views='1.3M'
+                views='1M'
                 subs='345K'
-                description='Do you want a FREE one hour training...'
-                timestamp='50 seconds ago'
+                description='Do you want to win one hour personal teaching session'
+                timestamp='5 hours ago'
                 channel='Tanjica Bananica'
-                title='Learn make-up tricks with me'
-                image='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_960_720.jpg'                
+                title='Spice up your lipstick game'
+                image='https://cdn.pixabay.com/photo/2015/05/31/13/29/lipstick-791761_960_720.jpg'                
             />
         </div>
     )
