@@ -29,7 +29,7 @@ function SearchPage() {
                 timestamp='50 minutes ago'
                 channel='Tanjica Bananica'
                 title="New make-up tutorial for New Year's eve"
-                image='https://cdn.pixabay.com/photo/2018/01/21/14/16/woman-3096664_960_720.jpg'                
+                image='https://cdn.pixabay.com/photo/2017/06/02/14/11/girl-2366438_960_720.jpg'                
             />
             <VideoRow
                 views='1.3M'
