@@ -30,10 +30,10 @@ function Header() {
                 <input 
                 onChange={e => setInputSearch(e.target.value)}
                 value={inputSearch} 
-                placeholder='Search' 
+                placeholder=' Search' 
                 type="text" 
                 />
-                <Link to={`youtube-clone/search/${inputSearch}`}>
+                <Link className='header__link' to={`youtube-clone/search/${inputSearch}`}>
                     <SearchIcon className='header__inputButton'/>
                 </Link>
             </div>

@@ -26,11 +26,18 @@
     margin-right: 8px;
 }
 
-.header__inputButton {
-    width: 50px !important; /*to reset default mui because icons are fonts*/
-    background-color: #fafafa;
+.header__link {
+    display: flex;
+    background-color: #fafafa;     
     border-left: 1px solid lightgray;
+    width: 50px !important; /*to reset default mui because mui_icons are fonts*/
+    min-width: 50px;
     color: gray;
+}
+
+.header__inputButton {
+    align-items: center;
+    margin: 0 auto;
 }
 
 .header__icons {
